@@ -1,3 +1,119 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* CSS Reset*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    
+}
+
+body{ 
+    font-family: Verdana, sans-serif; 
+}
+h1,h2,h3,h4,h5,h6{
+ font-family: 'Lucida Sans', sans-serif;
+}
+
+section{
+    padding:4% 0;
+}
+
+header{
+    height: 45vh;
+    background: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+
+nav{
+ order: 3;
+}
+
+footer{
+    text-align: center;
+    margin:120px;
+
+}
+
+.Features{
+display: flex;
+width: 700px;
+height: auto;
+margin: 0 auto;
+flex-direction: column;
+justify-content: flex-end;
+padding:30%;
+}
+
+
+.About{
+display: flex;
+width: 700px;
+height: auto;
+margin: 0 auto;
+flex-direction: column;
+justify-content: flex-end;
+padding: 30%;
+box-shadow: 0px 0px 20px;
+}
+
+
+.Service{
+display: flex;
+width: 650px;
+height: auto;
+margin: 20%;
+flex-direction: column-reverse;
+justify-content: flex-end;
+padding: 20%;
+
+}  
+
+.topcontent{
+display: flex;
+width: 700px;
+flex-direction: column-reverse;
+justify-content: space-between;
+padding: 10%;
+
+}
+
+.Product{
+display: inline;
+margin: 50px;
+flex-direction: column-reverse;
+justify-content: space-around;
+border-width: 5px;
+padding: 20%;
+border-color: black;
+border-style: solid;
+
+}
+
+
+.Vision{
+display: inline;
+height: auto;
+flex-direction: column-reverse;
+margin: 50px;
+border-width: 5px;
+border-color: black;
+border-style: solid;
+
+}
+    
+
+
+
+
+
+
+
 
 
